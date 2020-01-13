@@ -11,6 +11,7 @@ export const Container = styled.View`
 export const ButtonRefresh = styled.TouchableOpacity`
   font-weight: bold;
   border: 0;
+  height:  60px;
   background: rgba(94, 185, 80, 1);
   width: 90%;
   margin: -30px 0 30px;
@@ -20,16 +21,17 @@ export const ButtonRefresh = styled.TouchableOpacity`
 export const ButtonRefreshText = styled.Text`
   color: #fff;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 25px;
   text-align: center;
   padding: 10px 5px;
 `;
 
 
-export const HeaderWheather = styled.View`
+export const HeaderWheater = styled.View`
   flex: 1;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
 `;
 
 export const Item = styled.Text`
@@ -39,16 +41,20 @@ export const Item = styled.Text`
   padding: 5px;
 `
 export const TextTemp = styled.Text`
-  font-size: 75px;
+  font-size: 90px;
   color: #E6E6FA;
   font-weight: bold;
 `
 export const Text = styled.Text`
   color: #E6E6FA;
   font-weight: bold;
+  font-size: 25px;
 `
 export const TextClimate = styled.Text`
   color: #E6E6FA;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
+`
+export const IconWheater = styled.View`
+  padding: 15px;
 `
