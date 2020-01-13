@@ -6,6 +6,7 @@ export const Container = styled.View`
   border: 0;
   border-radius: 4px;
   margin: 50px 0px;
+  justify-content: space-between;
 `;
 
 export const ButtonRefresh = styled.TouchableOpacity`
@@ -31,7 +32,7 @@ export const HeaderWheater = styled.View`
   flex: 1;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 70px;
 `;
 
 export const Item = styled.Text`
@@ -57,4 +58,9 @@ export const TextClimate = styled.Text`
 `
 export const IconWheater = styled.View`
   padding: 15px;
+`
+export const ContainerWheater = styled.View`
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
 `
