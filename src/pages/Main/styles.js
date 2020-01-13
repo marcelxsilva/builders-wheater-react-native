@@ -1,11 +1,9 @@
 import styled from 'styled-components/native';
-
+import imageBackgroung from '../../assets/background.jpg'
 export const Container = styled.View`
   flex: 1;
-  background: #ffc107;
   z-index: 5;
   align-items: center;
-
 `;
 
 export const Text = styled.Text`

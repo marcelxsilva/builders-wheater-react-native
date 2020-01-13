@@ -2,11 +2,16 @@ import React from 'react';
 import { Container, Text } from './styles';
 import Wheather from '../../components/Wheather';
 
+import { ImageBackground } from 'react-native';
+import image from '../../assets/background.jpg';
+
 export default function Main() {
   return (
-    <Container>
-      <Text>Wheather</Text>
-      <Wheather />
-    </Container>
+    <ImageBackground source={image} style={{width: '100%', height: '100%'}}>
+      <Container>
+        <Text>Wheather</Text>
+        <Wheather />
+      </Container>
+    </ImageBackground>
   );
 }
