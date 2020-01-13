@@ -6,7 +6,6 @@ export const Container = styled.View`
   border: 0;
   border-radius: 4px;
   margin: 50px 0px;
-  background: #e6ecf0;
 `;
 
 export const ButtonRefresh = styled.TouchableOpacity`
@@ -27,5 +26,29 @@ export const ButtonRefreshText = styled.Text`
 `;
 
 
-export const List = styled.View``
-export const Item = styled.View``
+export const HeaderWheather = styled.View`
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+export const Item = styled.Text`
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+`
+export const TextTemp = styled.Text`
+  font-size: 75px;
+  color: #E6E6FA;
+  font-weight: bold;
+`
+export const Text = styled.Text`
+  color: #E6E6FA;
+  font-weight: bold;
+`
+export const TextClimate = styled.Text`
+  color: #E6E6FA;
+  font-weight: bold;
+  font-size: 30px;
+`
