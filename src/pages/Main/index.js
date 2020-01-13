@@ -6,6 +6,7 @@ export default function Main() {
   return (
     <Container>
       <Text>Wheather</Text>
+      <Wheather />
     </Container>
   );
 }
