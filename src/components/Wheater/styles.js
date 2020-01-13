@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 
+
 export const Container = styled.View`
   flex: 1;
   width: 90%;
@@ -15,16 +16,15 @@ export const ButtonRefresh = styled.TouchableOpacity`
   height:  60px;
   background: rgba(94, 185, 80, 1);
   width: 90%;
-  margin: -30px 0 30px;
+  margin: 20px;
+  padding: 10px;
   border-radius: 4px;
-
 `;
 export const ButtonRefreshText = styled.Text`
   color: #fff;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-  padding: 10px 5px;
 `;
 
 

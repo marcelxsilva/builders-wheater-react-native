@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, ButtonRefresh, ButtonRefreshText, HeaderWheater, TextTemp, Text, TextClimate, IconWheater, ContainerWheater } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
-import { View } from 'react-native'
+
+import { View, ActivityIndicator } from 'react-native'
 export default function Wheater() {
+  const [loading, setLoading] = useState(false);
+
   return (
     <>
       <Container>
@@ -12,7 +15,6 @@ export default function Wheater() {
           </IconWheater>
           <TextTemp>25º</TextTemp>
         </HeaderWheater>
-
 
         <ContainerWheater>
           <View>
@@ -35,8 +37,10 @@ export default function Wheater() {
         <Text >Taboão da Serra</Text>
       </Container>
 
-      <ButtonRefresh>
-        <ButtonRefreshText>Atualizar</ButtonRefreshText>
+      <ButtonRefresh onPress={() => setLoading(true)}>
+        {loading
+          ? <ActivityIndicator size='large' color='#fff' />
+          : <ButtonRefreshText>Atualizar</ButtonRefreshText>}
       </ButtonRefresh>
     </>
   );
