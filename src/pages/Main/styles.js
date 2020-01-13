@@ -9,7 +9,7 @@ export const Container = styled.View`
 export const Text = styled.Text`
   font-size: 22px;
   font-weight: bold;
-  color: #333;
+  color: #fff;
   margin-bottom: -20px;
   margin-top: 20px;
 `
