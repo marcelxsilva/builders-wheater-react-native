@@ -37,6 +37,8 @@ target 'builders_wheather' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'ReactNativeGetLocation', :path => '../node_modules/react-native-get-location'
+
   target 'builders_wheatherTests' do
     inherit! :search_paths
     # Pods for testing

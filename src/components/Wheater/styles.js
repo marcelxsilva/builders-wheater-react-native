@@ -42,7 +42,7 @@ export const Item = styled.Text`
   padding: 5px;
 `
 export const TextTemp = styled.Text`
-  font-size: 90px;
+  font-size: 110px;
   color: #E6E6FA;
   font-weight: bold;
 `
