@@ -55,12 +55,12 @@ export default function Wheater() {
         <ContainerWheater>
           <View>
             <Text>Min.</Text>
-            <TextTemp style={{ fontSize: 60 }}>{dataWheater.temp_min}º</TextTemp>
+            <TextTemp style={{ fontSize: 60 }}>{dataWheater.temp_min ^ 0}º</TextTemp>
           </View>
 
           <View>
             <Text>Max.</Text>
-            <TextTemp style={{ fontSize: 60 }}>{dataWheater.temp_max}º</TextTemp>
+            <TextTemp style={{ fontSize: 60 }}>{dataWheater.temp_max ^ 0}º</TextTemp>
           </View>
 
           <View>
