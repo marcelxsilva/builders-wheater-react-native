@@ -9,7 +9,7 @@ export default function Main() {
   return (
     <ImageBackground source={image} style={{width: '100%', height: '100%'}}>
       <Container>
-        <Text>Builders Wheather</Text>
+        <Text>Builders Wheater</Text>
         <Wheather />
       </Container>
     </ImageBackground>

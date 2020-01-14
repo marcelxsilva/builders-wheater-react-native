@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.01-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Aplicativo que exibe informaçoes do clima baseado na localização do usuario
+> Aplicação para exibir informaçoes climaticas baseado na localização do usuario
 
 ## Para rodar no emulador
 
@@ -13,6 +13,10 @@
   yarn react-native run-android
 ```
 
+## View
+
+<img src='./src/assets/1.jpeg'  width='200'/>
+<img src='./src/assets/2.jpeg'  width='200'/>
 
 ## Author
 
